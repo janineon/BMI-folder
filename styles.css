@@ -1,0 +1,32 @@
+        h1 {
+            text-align: center;
+        }
+
+        #reset {
+            border: 0;
+        }
+
+        input {
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        #calculate {
+            background-color: #97d0a1;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        body {
+            width: 395px;
+            height: 400px;
+            margin: 30%;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .cal {
+            padding-left: 5%;
+            padding-right: 5%;
+        }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+
+<head>
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Adult BMI Calculator</h1>
+    <div class="cal"></div>
+    <input type="radio" id="us-units" name="units">
+    <label>Us Customary Metrics</label>
+    <input type="radio" id="metric-units" name="units">
+    <label>Metric Units</label>
+    <button id="reset" onclick="reset"><u>RESET</u></button>
+
+    <div id="us_units">
+        <h3>HEIGHT</h3>
+        <input type="text" id="ft">
+        <label>Feet (ft)</label>
+        <input type="text" id="inch">
+        <label>Inches (in)</label>
+        <br>
+        <h3>Weight</h3>
+        <input type="text" id="lb">
+        <label>pounds (lb)</label>
+    </div>
+
+    <div id="metric_units" style="display: none;">
+        <h3>HEIGHT</h3>
+        <input type="text" id="cm">
+        <label>Centimeter (cm)</label>
+        <br>
+        <h3>Weight</h3>
+        <input type="text" id="kg">
+        <label>Kilograms (kg)</label>
+    </div>
+
+    <button id="calculate">Calculate</button>
+    <input type="text" id="result" disabled>
+    <p id="conclusion"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
